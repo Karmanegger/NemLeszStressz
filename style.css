@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f1e9;
+  font-family: sans-serif;
+  color: #2e4e35;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: #a4c3a2;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.agy {
+  width: 120px;
+  margin-bottom: 20px;
+}

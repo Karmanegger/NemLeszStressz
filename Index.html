@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>NemLeszStressz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="agyfigura.png" alt="Agyfigura" class="agy">
+    <h1>NemLeszStressz</h1>
+    
+    <button onclick="mutassTippet()">Napi tipp</button>
+    <p id="tippSzoveg"></p>
+
+    <button onclick="inditLegzest()">Légzőgyakorlat</button>
+    <div id="legzesAnimacio"></div>
+
+    <h2>Hangulatnapló</h2>
+    <textarea id="naploSzoveg" placeholder="Írd le a gondolataid..."></textarea>
+    <br>
+    <label>Stressz szint:</label>
+    <input type="range" id="stresszSzint" min="0" max="10">
+    <br>
+    <button onclick="mentes()">Mentés</button>
+
+    <h3>Korábbi bejegyzések</h3>
+    <ul id="naploLista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
